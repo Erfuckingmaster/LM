@@ -1,0 +1,111 @@
+body
+{
+    background-image: url(fondo_difuminado.jpg);
+    background-size:100%;
+    background-attachment:fixed;
+    color: black;
+    font-size: 20px;
+    margin: 0px;
+}
+footer
+{
+    padding: 15px 15px;
+    background-size:100%;
+    background-attachment:fixed;
+    background-color: blue;
+    color: white;
+}
+
+button
+{
+    background-color: white;
+    border-style: none;
+    font-size: 25px;
+}
+
+button:hover
+{
+    color: red;
+}
+
+#menu
+{
+    background-color: white;
+    margin-top: -75px;
+}
+#Inicio-Sesion
+{
+    width: 10%;
+    background-color: gray;
+    position: sticky;
+    top: 0;
+}
+#scanme
+{
+    width: 300px;
+}
+#seccion1
+{
+    margin-top: 75px;
+}
+#texto-footer
+{
+    text-align: right;
+    margin-top: -40px;
+}
+span
+{
+    padding-left: 95%;
+}
+img:hover
+{
+    transform: rotate(45deg);
+    z-index: 1;
+}
+nav
+{
+
+    position: fixed;
+    z-index: 2;
+}
+
+.foto
+{
+    width: 150px;
+}
+
+#seccion1, #seccion2, #seccion3
+{
+    text-align: center;
+}
+
+#Portatiles, #Moviles, #Gaming
+{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 15px 15px;
+    margin:  0px;
+    border-radius: 0 10px 0 0;
+    position: relative;
+}
+
+.fondo-blanco
+{
+    background-color: white;
+    color: black;
+}
+a:hover
+{
+    color: red;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.texto-blanco
+{
+    color: white;
+}

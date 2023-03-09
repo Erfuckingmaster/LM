@@ -1,0 +1,99 @@
+body
+{
+    background-color:black;
+    background-image: url("../Imagenes/fondo.jpg");
+    background-size:100%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header
+{
+    font-family: monospace;
+    flex: 1 0 100%;
+}
+
+header img
+{
+    width: 50px;
+}
+
+nav
+{
+    padding: 20px 0px 20px 0px;
+    border: 1px solid white;
+    font-family: sans-serif;
+    display:flex;
+    flex-direction:row;
+}
+
+a
+{
+    padding-right: 9%;
+    padding-left: 9%;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+    background-color: rgba(15, 15, 15, 0.5);
+}
+
+section
+{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-x:auto;
+}
+article:hover
+{
+    background-color: rgba(125, 10, 125, 0.3);
+}
+article img
+{
+    margin-top: 20px;
+    width:300px;
+    height: 200px;
+}
+
+article p
+{
+    font-family:;
+    font-size: 22px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 1px bisque;
+}
+
+footer
+{
+    background-color: beige;
+    color:black;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    font-family:sans-serif;
+}
+footer p
+{
+    margin: 0%;
+}
+footer a
+{
+    color: black;
+    font-size: 20px;
+    margin-inline: 20px;
+}
+footer a:hover
+{
+    color: gray;
+    background-color: lightgray;
+}
